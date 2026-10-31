@@ -1,0 +1,80 @@
+{
+  "name": "adminkit-nextjs",
+  "version": "4.1.0",
+  "description": "AdminKit - Next.js Admin Template with Bootstrap 5",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node scripts/serve.mjs",
+    "lint": "eslint . && prettier --check . && tsc --noEmit && node scripts/stats.mjs --check",
+    "format": "prettier --write .",
+    "stats": "node scripts/stats.mjs",
+    "stats:sync": "node scripts/stats.mjs --sync",
+    "test": "playwright test",
+    "test:install": "playwright install chromium"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "bootstrap",
+    "bootstrap 5",
+    "admin",
+    "dashboard",
+    "template",
+    "typescript"
+  ],
+  "homepage": "https://adminkit.io/",
+  "bugs": {
+    "url": "https://github.com/adminkit/adminkit-nextjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adminkit/adminkit-nextjs.git"
+  },
+  "license": "MIT",
+  "author": "Paul Laros <support@adminkit.io>",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@floating-ui/react": "0.27.20",
+    "@fontsource/inter": "5.3.0",
+    "bootstrap": "5.3.8",
+    "chart.js": "4.6.1",
+    "jsvectormap": "1.7.0",
+    "lucide-react": "1.66.0",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "simplebar-react": "3.3.2",
+    "vanilla-calendar-pro": "3.4.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "10.14.0",
+    "eslint-config-next": "16.4.3",
+    "lefthook": "2.2.2",
+    "prettier": "3.9.10",
+    "sass": "1.107.1",
+    "typescript": "6.0.3"
+  },
+  "allowScripts": {
+    "lefthook": true
+  },
+  "adminkit": {
+    "edition": "free",
+    "framework": "nextjs"
+  },
+  "overrides": {
+    "minimatch": "11.0.3",
+    "glob": "14.0.3"
+  }
+}

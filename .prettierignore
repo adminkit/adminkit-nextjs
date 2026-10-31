@@ -1,0 +1,9 @@
+.next
+out
+public
+node_modules
+package-lock.json
+test-results
+playwright-report
+src/data/icons-*.json
+src/components/plugins/vector-maps
