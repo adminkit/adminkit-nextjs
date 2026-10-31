@@ -1,0 +1,27 @@
+.stat {
+  background: $stat-bg;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  svg,
+  i[data-lucide] {
+    width: 18px;
+    height: 18px;
+    color: $stat-icon-color !important;
+    stroke-width: 1.5;
+  }
+}
+
+@include color-mode(dark) {
+  .stat {
+    background: $stat-bg-dark;
+
+    svg {
+      color: $stat-icon-color-dark !important;
+    }
+  }
+}

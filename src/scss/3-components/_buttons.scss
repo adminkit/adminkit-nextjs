@@ -1,0 +1,68 @@
+.btn .lucide,
+.btn i[data-lucide] {
+  width: 14px;
+  height: 14px;
+}
+
+// White text, or dark text where white does not reach 4.5:1 on the colour (warning)
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    @include button-color(text-on($value));
+    @include button-color-hover(text-on($value));
+  }
+}
+
+// Outline buttons draw their label and border in the colour, as text on the surface
+@each $color, $value in $theme-text-colors {
+  .btn-outline-#{$color} {
+    --#{$prefix}btn-color: #{$value};
+    --#{$prefix}btn-border-color: #{$value};
+  }
+}
+
+// Brand colours, darkened where white text does not reach 4.5:1 on them
+@each $color, $value in $social-colors {
+  $bg: readable($value, $white);
+
+  .btn-#{$color} {
+    @include button-variant($bg, $bg);
+    @include button-color($white);
+    @include button-color-hover($white);
+  }
+}
+
+// Dark text on the badge colours where white does not reach 4.5:1 (warning)
+@each $color, $value in $theme-colors {
+  @if $color != "light" and text-on($value) != #fff {
+    .badge.bg-#{$color} {
+      color: text-on($value);
+    }
+  }
+}
+
+.btn-light,
+.btn-white {
+  @include button-color(var(--#{$prefix}gray-800));
+  @include button-color-hover(var(--#{$prefix}gray-800));
+}
+
+@include color-mode(dark) {
+  @each $color, $value in $theme-colors-dark {
+    .btn-#{$color} {
+      @include button-variant($value, $value);
+      @include button-color(text-on($value));
+      @include button-color-hover(text-on($value));
+    }
+
+    .btn-outline-#{$color} {
+      @include button-outline-variant($value);
+    }
+  }
+
+  @each $color, $value in $theme-text-colors-dark {
+    .btn-outline-#{$color} {
+      --#{$prefix}btn-color: #{$value};
+      --#{$prefix}btn-border-color: #{$value};
+    }
+  }
+}
