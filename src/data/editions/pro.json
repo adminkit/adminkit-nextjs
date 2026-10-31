@@ -1,0 +1,179 @@
+{
+  "edition": "pro",
+  "framework": "nextjs",
+  "version": "4.1.0",
+  "pages": {
+    "count": 53,
+    "list": [
+      { "path": "/", "title": "Analytics Dashboard" },
+      { "path": "/calendar", "title": "Calendar" },
+      { "path": "/charts-apexcharts", "title": "ApexCharts" },
+      { "path": "/charts-chartjs", "title": "Chart.js" },
+      { "path": "/dashboard-ai", "title": "AI Analytics Dashboard" },
+      { "path": "/dashboard-crm", "title": "CRM Dashboard" },
+      { "path": "/dashboard-crypto", "title": "Crypto Dashboard" },
+      { "path": "/dashboard-ecommerce", "title": "E-Commerce Dashboard" },
+      { "path": "/forms-advanced-inputs", "title": "Advanced Inputs" },
+      { "path": "/forms-basic-inputs", "title": "Basic Inputs" },
+      { "path": "/forms-editors", "title": "Editors" },
+      { "path": "/forms-input-groups", "title": "Input Groups" },
+      { "path": "/forms-layouts", "title": "Form Layouts" },
+      { "path": "/forms-validation", "title": "Validation" },
+      { "path": "/icons-font-awesome", "title": "Font Awesome" },
+      { "path": "/icons-lucide", "title": "Lucide" },
+      { "path": "/maps-google", "title": "Google Maps" },
+      { "path": "/maps-vector", "title": "Vector Maps" },
+      { "path": "/notifications", "title": "Notifications" },
+      { "path": "/pages-404", "title": "404" },
+      { "path": "/pages-500", "title": "500" },
+      { "path": "/pages-blank", "title": "Blank Page" },
+      { "path": "/pages-chat", "title": "Messages" },
+      { "path": "/pages-chat-ai", "title": "AI Chat" },
+      { "path": "/pages-clients", "title": "Clients" },
+      { "path": "/pages-invoice", "title": "Invoice" },
+      { "path": "/pages-orders", "title": "Orders" },
+      { "path": "/pages-pricing", "title": "Plans & Pricing" },
+      { "path": "/pages-profile", "title": "Profile" },
+      { "path": "/pages-projects", "title": "Projects" },
+      { "path": "/pages-prompts", "title": "Prompt Library" },
+      { "path": "/pages-reset-password", "title": "Reset Password" },
+      { "path": "/pages-settings", "title": "Settings" },
+      { "path": "/pages-sign-in", "title": "Sign In" },
+      { "path": "/pages-sign-up", "title": "Sign Up" },
+      { "path": "/pages-tasks", "title": "Tasks" },
+      { "path": "/tables-bootstrap", "title": "Tables" },
+      { "path": "/tables-datatables-ajax", "title": "Ajax Sourced Data" },
+      { "path": "/tables-datatables-buttons", "title": "Table with Buttons" },
+      { "path": "/tables-datatables-column-search", "title": "Column Search" },
+      { "path": "/tables-datatables-fixed-header", "title": "Fixed Header" },
+      { "path": "/tables-datatables-multi", "title": "Multi Selection" },
+      {
+        "path": "/tables-datatables-responsive",
+        "title": "Responsive DataTables"
+      },
+      { "path": "/ui-alerts", "title": "Alerts" },
+      { "path": "/ui-buttons", "title": "Buttons" },
+      { "path": "/ui-cards", "title": "Cards" },
+      { "path": "/ui-general", "title": "General" },
+      { "path": "/ui-grid", "title": "Grid" },
+      { "path": "/ui-modals", "title": "Modals" },
+      { "path": "/ui-offcanvas", "title": "Offcanvas" },
+      { "path": "/ui-placeholders", "title": "Placeholders" },
+      { "path": "/ui-tabs", "title": "Tabs" },
+      { "path": "/ui-typography", "title": "Typography" }
+    ]
+  },
+  "dashboards": {
+    "count": 5,
+    "list": [
+      { "path": "/", "title": "Analytics Dashboard" },
+      { "path": "/dashboard-ai", "title": "AI Analytics Dashboard" },
+      { "path": "/dashboard-crm", "title": "CRM Dashboard" },
+      { "path": "/dashboard-crypto", "title": "Crypto Dashboard" },
+      { "path": "/dashboard-ecommerce", "title": "E-Commerce Dashboard" }
+    ]
+  },
+  "plugins": {
+    "count": 11,
+    "list": [
+      {
+        "name": "ApexCharts",
+        "package": "apexcharts",
+        "url": "https://apexcharts.com/",
+        "license": "MIT"
+      },
+      {
+        "name": "Chart.js",
+        "package": "chart.js",
+        "url": "https://www.chartjs.org/",
+        "license": "MIT"
+      },
+      {
+        "name": "DataTables",
+        "package": "datatables.net-react",
+        "url": "https://datatables.net/manual/react",
+        "license": "MIT"
+      },
+      {
+        "name": "dnd kit",
+        "package": "@dnd-kit/core",
+        "url": "https://dndkit.com/",
+        "license": "MIT"
+      },
+      {
+        "name": "FullCalendar",
+        "package": "@fullcalendar/react",
+        "url": "https://fullcalendar.io/docs/react",
+        "license": "MIT"
+      },
+      {
+        "name": "Inputmask",
+        "package": "inputmask",
+        "url": "https://github.com/RobinHerbots/Inputmask",
+        "license": "MIT"
+      },
+      {
+        "name": "jsVectorMap",
+        "package": "jsvectormap",
+        "url": "https://jvm-docs.vercel.app/",
+        "license": "MIT"
+      },
+      {
+        "name": "Quill",
+        "package": "quill",
+        "url": "https://quilljs.com/",
+        "license": "BSD-3-Clause"
+      },
+      {
+        "name": "React Select",
+        "package": "react-select",
+        "url": "https://react-select.com/",
+        "license": "MIT"
+      },
+      {
+        "name": "SimpleBar",
+        "package": "simplebar-react",
+        "url": "https://grsmto.github.io/simplebar/",
+        "license": "MIT"
+      },
+      {
+        "name": "Vanilla Calendar Pro",
+        "package": "vanilla-calendar-pro",
+        "url": "https://vanilla-calendar.pro/",
+        "license": "MIT"
+      }
+    ]
+  },
+  "icons": {
+    "total": 4178,
+    "lucide": 2015,
+    "fontAwesome": {
+      "solid": 1422,
+      "regular": 169,
+      "brands": 572,
+      "total": 2163
+    }
+  },
+  "colorModes": { "count": 2, "list": ["light", "dark"] },
+  "colorSchemes": { "count": 3, "list": ["default", "colored", "light"] },
+  "aiPages": {
+    "count": 3,
+    "list": [
+      { "path": "/dashboard-ai", "title": "AI Analytics Dashboard" },
+      { "path": "/pages-chat-ai", "title": "AI Chat" },
+      { "path": "/pages-prompts", "title": "Prompt Library" }
+    ]
+  },
+  "comparison": [
+    { "id": "pages", "label": "Pages", "pro": 53 },
+    { "id": "dashboards", "label": "Dashboards", "pro": 5 },
+    { "id": "plugins", "label": "Plugins", "pro": 11 },
+    { "id": "icons", "label": "Icons", "pro": 4178 },
+    { "id": "colorSchemes", "label": "Sidebar color schemes", "pro": 3 },
+    { "id": "darkMode", "label": "Dark mode", "pro": true },
+    { "id": "aiChat", "label": "AI features", "pro": true },
+    { "id": "settingsPanel", "label": "Settings panel", "pro": true },
+    { "id": "support", "label": "Support", "pro": "Email" },
+    { "id": "license", "label": "License", "pro": "Commercial" }
+  ]
+}

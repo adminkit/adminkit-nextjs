@@ -1,0 +1,123 @@
+[
+  {
+    "path": "/",
+    "title": "Analytics Dashboard",
+    "category": ["dashboard"],
+    "layout": "dashboard",
+    "description": "Free Next.js and Bootstrap 5 analytics dashboard demo: visitors, page views, bounce rate, session duration, traffic and browser charts, a live visitors map and top pages."
+  },
+  {
+    "path": "/charts-chartjs",
+    "title": "Chart.js",
+    "layout": "dashboard",
+    "description": "Chart.js demo for the free AdminKit Next.js admin template. Bar, doughnut, line and pie charts for your dashboard."
+  },
+  {
+    "path": "/icons-lucide",
+    "title": "Lucide",
+    "layout": "dashboard",
+    "description": "Lucide icons demo for the free AdminKit Next.js admin template. {icons.lucide} open-source SVG icons for your dashboard."
+  },
+  {
+    "path": "/maps-google",
+    "title": "Google Maps",
+    "layout": "dashboard",
+    "description": "Google Maps demo for the free AdminKit Next.js admin template. Embed interactive maps with markers directly into your dashboard."
+  },
+  {
+    "path": "/pages-404",
+    "title": "404",
+    "layout": "auth",
+    "description": "404 error page demo for the free AdminKit Next.js admin template. A responsive not-found page for your dashboard."
+  },
+  {
+    "path": "/pages-500",
+    "title": "500",
+    "layout": "auth",
+    "description": "500 error page demo for the free AdminKit Next.js admin template. A responsive server error page for your dashboard."
+  },
+  {
+    "path": "/pages-blank",
+    "title": "Blank Page",
+    "layout": "dashboard",
+    "description": "Blank page demo for the free AdminKit Next.js admin template. An empty starting point for your own dashboard pages."
+  },
+  {
+    "path": "/pages-invoice",
+    "title": "Invoice",
+    "layout": "dashboard",
+    "description": "Invoice page demo for the free AdminKit Next.js template. An invoice with status, billing details, line items, totals and payment details that prints without the sidebar and navbar."
+  },
+  {
+    "path": "/pages-pricing",
+    "title": "Pricing",
+    "layout": "dashboard",
+    "description": "Pricing page demo for the free AdminKit Next.js admin template. Three plans with a monthly and yearly billing switch, a plan comparison table and frequently asked questions."
+  },
+  {
+    "path": "/pages-profile",
+    "title": "Profile",
+    "layout": "dashboard",
+    "description": "User profile demo for the free AdminKit Next.js admin template. Profile header with stats, about and skills, team, projects and an activity feed."
+  },
+  {
+    "path": "/pages-sign-in",
+    "title": "Sign In",
+    "layout": "auth",
+    "description": "Sign in page demo for the free AdminKit Next.js admin template. A responsive authentication form for your dashboard."
+  },
+  {
+    "path": "/pages-sign-up",
+    "title": "Sign Up",
+    "layout": "auth",
+    "description": "Sign up page demo for the free AdminKit Next.js admin template. A responsive registration form for your dashboard."
+  },
+  {
+    "path": "/tables-bootstrap",
+    "title": "Tables",
+    "layout": "dashboard",
+    "description": "Bootstrap tables demo for the free AdminKit Next.js template. Basic, striped, bordered, hoverable and responsive tables for your dashboard."
+  },
+  {
+    "path": "/ui-alerts",
+    "title": "Alerts",
+    "layout": "dashboard",
+    "description": "Bootstrap alerts demo for the free AdminKit Next.js template. Contextual, icon and outline alert styles for your dashboard."
+  },
+  {
+    "path": "/ui-buttons",
+    "title": "Buttons",
+    "layout": "dashboard",
+    "description": "Bootstrap buttons demo for the free AdminKit Next.js template. Solid, outline, icon and button group styles for your dashboard."
+  },
+  {
+    "path": "/ui-cards",
+    "title": "Cards",
+    "layout": "dashboard",
+    "description": "Bootstrap cards demo for the free AdminKit Next.js template. Card layouts with images, headers and footers for your dashboard."
+  },
+  {
+    "path": "/ui-forms",
+    "title": "Forms",
+    "layout": "dashboard",
+    "description": "Bootstrap forms demo for the free AdminKit Next.js template. Inputs, selects, checkboxes, radios and validation for your dashboard."
+  },
+  {
+    "path": "/ui-modals",
+    "title": "Modals",
+    "layout": "dashboard",
+    "description": "Bootstrap modal demo for the free AdminKit Next.js template. Default, colored, centered and sized dialogs for your dashboard."
+  },
+  {
+    "path": "/ui-typography",
+    "title": "Typography",
+    "layout": "dashboard",
+    "description": "Bootstrap typography demo for the free AdminKit Next.js template. Headings, text utilities, blockquotes and lists for dashboards."
+  },
+  {
+    "path": "/upgrade-to-pro",
+    "title": "Upgrade to Pro",
+    "layout": "dashboard",
+    "description": "Compare the free AdminKit with AdminKit PRO: {editions.pro.pages.count} pages, {editions.pro.dashboards.count} dashboards, {editions.pro.plugins.count} plugins and {editions.pro.icons.total} icons for Next.js and Bootstrap 5."
+  }
+]

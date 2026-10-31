@@ -1,0 +1,93 @@
+{
+  "edition": "free",
+  "framework": "nextjs",
+  "version": "4.1.0",
+  "pages": {
+    "count": 20,
+    "list": [
+      { "path": "/", "title": "Analytics Dashboard" },
+      { "path": "/charts-chartjs", "title": "Chart.js" },
+      { "path": "/icons-lucide", "title": "Lucide" },
+      { "path": "/maps-google", "title": "Google Maps" },
+      { "path": "/pages-404", "title": "404" },
+      { "path": "/pages-500", "title": "500" },
+      { "path": "/pages-blank", "title": "Blank Page" },
+      { "path": "/pages-invoice", "title": "Invoice" },
+      { "path": "/pages-pricing", "title": "Pricing" },
+      { "path": "/pages-profile", "title": "Profile" },
+      { "path": "/pages-sign-in", "title": "Sign In" },
+      { "path": "/pages-sign-up", "title": "Sign Up" },
+      { "path": "/tables-bootstrap", "title": "Tables" },
+      { "path": "/ui-alerts", "title": "Alerts" },
+      { "path": "/ui-buttons", "title": "Buttons" },
+      { "path": "/ui-cards", "title": "Cards" },
+      { "path": "/ui-forms", "title": "Forms" },
+      { "path": "/ui-modals", "title": "Modals" },
+      { "path": "/ui-typography", "title": "Typography" },
+      { "path": "/upgrade-to-pro", "title": "Upgrade to Pro" }
+    ]
+  },
+  "dashboards": {
+    "count": 1,
+    "list": [{ "path": "/", "title": "Analytics Dashboard" }]
+  },
+  "plugins": {
+    "count": 4,
+    "list": [
+      {
+        "name": "Chart.js",
+        "package": "chart.js",
+        "url": "https://www.chartjs.org/",
+        "license": "MIT"
+      },
+      {
+        "name": "jsVectorMap",
+        "package": "jsvectormap",
+        "url": "https://jvm-docs.vercel.app/",
+        "license": "MIT"
+      },
+      {
+        "name": "SimpleBar",
+        "package": "simplebar-react",
+        "url": "https://grsmto.github.io/simplebar/",
+        "license": "MIT"
+      },
+      {
+        "name": "Vanilla Calendar Pro",
+        "package": "vanilla-calendar-pro",
+        "url": "https://vanilla-calendar.pro/",
+        "license": "MIT"
+      }
+    ]
+  },
+  "icons": { "total": 2015, "lucide": 2015 },
+  "colorModes": { "count": 2, "list": ["light", "dark"] },
+  "colorSchemes": { "count": 1, "list": ["default"] },
+  "comparison": [
+    { "id": "pages", "label": "Pages", "free": 20, "pro": 53 },
+    { "id": "dashboards", "label": "Dashboards", "free": 1, "pro": 5 },
+    { "id": "plugins", "label": "Plugins", "free": 4, "pro": 11 },
+    { "id": "icons", "label": "Icons", "free": 2015, "pro": 4178 },
+    {
+      "id": "colorSchemes",
+      "label": "Sidebar color schemes",
+      "free": 1,
+      "pro": 3
+    },
+    { "id": "darkMode", "label": "Dark mode", "free": true, "pro": true },
+    { "id": "aiChat", "label": "AI features", "free": false, "pro": true },
+    {
+      "id": "settingsPanel",
+      "label": "Settings panel",
+      "free": false,
+      "pro": true
+    },
+    {
+      "id": "support",
+      "label": "Support",
+      "free": "GitHub issues",
+      "pro": "Email"
+    },
+    { "id": "license", "label": "License", "free": "MIT", "pro": "Commercial" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "plugins": [
+    {
+      "name": "Chart.js",
+      "package": "chart.js",
+      "url": "https://www.chartjs.org/",
+      "license": "MIT"
+    },
+    {
+      "name": "jsVectorMap",
+      "package": "jsvectormap",
+      "url": "https://jvm-docs.vercel.app/",
+      "license": "MIT"
+    },
+    {
+      "name": "SimpleBar",
+      "package": "simplebar-react",
+      "url": "https://grsmto.github.io/simplebar/",
+      "license": "MIT"
+    },
+    {
+      "name": "Vanilla Calendar Pro",
+      "package": "vanilla-calendar-pro",
+      "url": "https://vanilla-calendar.pro/",
+      "license": "MIT"
+    }
+  ],
+  "notPlugins": {
+    "@floating-ui/react": "Positions the dropdowns",
+    "@fontsource/inter": "Font: the Inter typeface",
+    "bootstrap": "The framework the styles are built on (Sass only)",
+    "lucide-react": "Icon set, counted under icons",
+    "next": "The framework the app is built on",
+    "react": "The library the app is built on",
+    "react-dom": "The library the app is built on"
+  }
+}
