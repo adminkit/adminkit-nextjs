@@ -12,13 +12,14 @@
   <a href="https://github.com/adminkit/adminkit-nextjs/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="https://github.com/adminkit/adminkit-nextjs/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/adminkit/adminkit-nextjs.svg" alt="GitHub issues open"></a>
   <a href="https://github.com/adminkit/adminkit-nextjs/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/adminkit/adminkit-nextjs.svg" alt="GitHub issues closed"></a>
+  <a href="https://nextjs-demo.adminkit.io/" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
   <br>
 <a href="https://github.com/adminkit/adminkit-nextjs"><img alt="GitHub stars" src="https://img.shields.io/github/stars/adminkit/adminkit-nextjs?style=social"></a>
 </p>
 
 ## Preview
 
-A professional admin and dashboard template built with Next.js, React, TypeScript and Bootstrap 5, with a dashboard, pages, forms, tables, charts and icons. Free and [MIT-licensed](LICENSE).
+A professional admin and dashboard template built with Next.js, React, TypeScript and Bootstrap 5, with a dashboard, pages, forms, tables, charts and icons. Free and [MIT-licensed](LICENSE). [Open the demo](https://nextjs-demo.adminkit.io/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/screenshots/dashboard-dark.webp">
