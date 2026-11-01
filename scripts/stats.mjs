@@ -239,7 +239,7 @@ const readComparison = async (own, editions, errors) => {
       const theirs = snapshot.comparison?.find((other) => other.id === id);
       if (theirs === undefined || !(edition in theirs)) {
         errors.push(
-          `src/data/editions/${edition}.json has no ${id} comparison row; add it to the ${edition} src/data/comparison.json, then run npm run stats:sync`
+          `src/data/editions/${edition}.json has no ${id} comparison row; add it to the ${edition} src/data/comparison.json, then run node scripts/stats.mjs --sync --pro <checkout>`
         );
         continue;
       }
@@ -409,7 +409,7 @@ const sync = async (args) => {
   }
   if (!pairs.length) {
     throw new Error(
-      "Name the checkout to read: npm run stats:sync -- --pro <path to AdminKit PRO for Next.js>"
+      "Name the checkout to read: node scripts/stats.mjs --sync --pro <checkout>"
     );
   }
 

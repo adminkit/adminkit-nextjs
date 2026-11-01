@@ -7,10 +7,9 @@ Free, MIT-licensed Next.js admin template based on Bootstrap 5.
 - `npm run dev`: dev server on http://localhost:3000
 - `npm run build`: static export into `out/`; `npm start` serves it
 - `npm run lint`: ESLint, Prettier, `tsc` and the stats check; must pass
-- `npm test`: Playwright smoke and axe tests on `out/` (build first)
+- `npm test`: Playwright smoke and axe tests on `out/` (build first; `npm run test:install` once)
 - `npm run format`: Prettier write
 - `npm run stats`: regenerate `src/data/stats.json` and the README counts
-- `npm run stats:sync -- --pro <checkout>`: refresh the AdminKit PRO for Next.js snapshot in `src/data/editions/pro.json`; run it before every release
 
 ## Layout
 
@@ -28,7 +27,7 @@ Free, MIT-licensed Next.js admin template based on Bootstrap 5.
 - Light and dark mode: `data-bs-theme` on `<html>`. Change the mode only through `useColorMode` (`src/lib/config.ts`). Colors that follow the mode use custom properties (`var(--bs-body-color)`, `var(--ak-surface-bg)`); dark-only overrides go in `@include color-mode(dark) { ... }` at the end of the partial. Check both modes.
 - Charts and maps read colors from the `theme` argument: `<ChartJs config={(theme) => ...} />`, `<VectorMap options={(theme) => ...} />`.
 - Icons are `lucide-react` components with the classes of the markup (`<CircleCheckBig className="align-middle" />`). Images are `<img>` with `width`, `height` and `src={asset("/img/...")}`, so the base path applies.
-- Counts come from `src/data/stats.json`, and AdminKit PRO's from `src/data/editions/pro.json`; a page description writes them as `{icons.lucide}`. Never type a count by hand. A new dependency goes in `src/data/plugins.json`, as a plugin or in `notPlugins`, or lint fails.
+- Counts come from `src/data/stats.json`, and AdminKit PRO's from `src/data/editions/pro.json` (a snapshot); a page description writes them as `{icons.lucide}`. Never type a count by hand. A new dependency goes in `src/data/plugins.json`, as a plugin or in `notPlugins`, or lint fails.
 - Motion: write transitions with `@include transition(...)`; under reduced motion nothing moves (a fade is fine). Cards inside `.reveal-cards` and `.reveal` elements fade in on scroll without extra code (`PageEffects`, `data-revealed`).
 - Layout shift stays 0: reserve the final size of anything a script draws, give images `width` and `height`.
 - Accessibility: WCAG 2.2 AA in both modes, no console errors or hydration warnings (`npm test`). Text colors come from `readable($color, $background)`, text on a fill from `text-on($background)`. Icon-only buttons get an `aria-label`; card titles are `h2.card-title`.
