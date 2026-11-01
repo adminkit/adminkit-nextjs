@@ -66,6 +66,7 @@
     "typescript": "6.0.3"
   },
   "allowScripts": {
+    "@parcel/watcher": false,
     "lefthook": true
   },
   "adminkit": {
