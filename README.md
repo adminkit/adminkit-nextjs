@@ -1,5 +1,10 @@
 <p align="center">
   <a href="https://github.com/adminkit/adminkit-nextjs"><img src="https://adminkit.io/icons/icon-512x512.png" alt="AdminKit is a free & open-source Next.js dashboard & admin template based on Bootstrap 5" width="96"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/logos/nextjs-dark.svg">
+    <img src=".github/logos/nextjs.svg" alt="Next.js" width="96">
+  </picture>
 </p>
 
 <h3 align="center">AdminKit for Next.js</h3>
