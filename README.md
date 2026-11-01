@@ -80,18 +80,18 @@ npm run build
 
 ## Documentation
 
-[Customization](https://adminkit.io/docs/getting-started/customization/), [dark mode](https://adminkit.io/docs/getting-started/dark-mode/), [icons](https://adminkit.io/docs/icons/lucide-icons/), [animations](https://adminkit.io/docs/getting-started/animations/), [accessibility](https://adminkit.io/docs/getting-started/accessibility/) and every component are documented at [adminkit.io/docs](https://adminkit.io/docs/).
+[Installation](https://adminkit.io/nextjs/docs/getting-started/installation/), [project structure](https://adminkit.io/nextjs/docs/getting-started/project-structure/), [theming](https://adminkit.io/nextjs/docs/customization/theming/), [dark mode](https://adminkit.io/nextjs/docs/customization/dark-mode/), the [components](https://adminkit.io/nextjs/docs/components/overview/) and [deployment](https://adminkit.io/nextjs/docs/getting-started/deployment/) are documented at [adminkit.io/nextjs/docs](https://adminkit.io/nextjs/docs/).
 
 ## Browser support
 
 | <img src="https://assets.adminkit.io/browsers/edge.png" alt="Edge" width="24px" height="24px" /><br/>Edge | <img src="https://assets.adminkit.io/browsers/firefox.png" alt="Firefox" width="24px" height="24px" /><br/>Firefox | <img src="https://assets.adminkit.io/browsers/chrome.png" alt="Chrome" width="24px" height="24px" /><br/>Chrome | <img src="https://assets.adminkit.io/browsers/safari.png" alt="Safari" width="24px" height="24px" /><br/>Safari | <img src="https://assets.adminkit.io/browsers/safari-ios.png" alt="iOS Safari" width="24px" height="24px" /><br/>iOS Safari |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 111+                                                                                                      | 111+                                                                                                               | 111+                                                                                                            | 16.4+                                                                                                           | 16.4+                                                                                                                       |
+| 111+                                                                                                      | 114+                                                                                                               | 111+                                                                                                            | 16.4+                                                                                                           | 16.4+                                                                                                                       |
 
 ## Resources
 
 - [Website](https://adminkit.io/)
-- [Documentation](https://adminkit.io/docs/)
+- [Documentation](https://adminkit.io/nextjs/docs/)
 - [Support](https://adminkit.io/support/)
 - [Affiliate Program](https://adminkit.io/affiliate-program)
 
