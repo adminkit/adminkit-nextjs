@@ -4,6 +4,8 @@ import pages from "@/data/pages.json";
 import stats from "@/data/stats.json";
 
 export const site = {
+  // Your app's address: social previews need an absolute URL for public/og-image.png
+  url: "https://nextjs-demo-mit.adminkit.io",
   title: "AdminKit Demo",
   slogan: "Next.js Admin Template",
   description:

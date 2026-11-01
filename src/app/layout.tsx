@@ -6,6 +6,7 @@ import { asset, site } from "@/lib/site";
 import "@/scss/app.scss";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
     default: `${site.title} - ${site.slogan}`,
     template: `%s | ${site.title}`,
@@ -14,6 +15,11 @@ export const metadata: Metadata = {
   authors: [{ name: site.author }],
   keywords: site.keywords,
   icons: { icon: asset("/img/icons/icon-48x48.png") },
+  // Social preview image (public/og-image.png)
+  openGraph: {
+    images: [{ url: asset("/og-image.png"), width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
