@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Add AdminKit for Next.js: the pages of AdminKit 4.1 as a Next.js app
+- Add AdminKit for Next.js: 20 pages, a dashboard, dark mode and 4 plugins

@@ -7,8 +7,8 @@ export default defineConfig([
   ...nextTs,
   {
     rules: {
-      // Static export: images are plain <img> elements with width and height, as in the
-      // HTML template (next/image needs an image server or a loader)
+      // Static export: images are plain <img> elements with width and height (next/image
+      // needs an image server or a loader)
       "@next/next/no-img-element": "off",
     },
   },
