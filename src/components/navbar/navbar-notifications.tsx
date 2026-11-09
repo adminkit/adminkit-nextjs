@@ -1,4 +1,4 @@
-import { Bell, CircleAlert, House, UserPlus } from "lucide-react";
+import { Bell, CircleExclamationPoint, House, UserPlus } from "lucide-react";
 import {
   Dropdown,
   DropdownMenu,
@@ -7,7 +7,7 @@ import {
 
 const notifications = [
   {
-    icon: <CircleAlert className="text-danger" />,
+    icon: <CircleExclamationPoint className="text-danger" />,
     title: "Update completed",
     text: "Restart server 12 to complete the update.",
     time: "30m ago",
